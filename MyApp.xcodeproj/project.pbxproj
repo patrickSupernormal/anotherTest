@@ -1,0 +1,99 @@
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 52;
+  objects = {
+
+    /* Begin PBXBuildFile section */
+    1234567890ABCD0012345678 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1234567890ABCD0012345679 /* AppDelegate.swift */; };
+    1234567890ABCD0012345680 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1234567890ABCD0012345681 /* ViewController.swift */; };
+    /* End PBXBuildFile section */
+
+    /* Begin PBXFileReference section */
+    1234567890ABCD0012345679 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+    1234567890ABCD0012345681 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+    /* End PBXFileReference section */
+
+    /* Begin PBXGroup section */
+    1234567890ABCD0012345670 = {
+      isa = PBXGroup;
+      children = (
+        1234567890ABCD0012345679 /* AppDelegate.swift */,
+        1234567890ABCD0012345681 /* ViewController.swift */,
+      );
+      path = MyApp;
+      sourceTree = "<group>";
+    };
+    1234567890ABCD0012345669 = {
+      isa = PBXGroup;
+      children = (
+        1234567890ABCD0012345670,
+      );
+      sourceTree = "<group>";
+    };
+    /* End PBXGroup section */
+
+    /* Begin PBXNativeTarget section */
+    1234567890ABCD0012345655 /* MyApp */ = {
+      isa = PBXNativeTarget;
+      name = MyApp;
+      productName = MyApp;
+      productType = "com.apple.product-type.application";
+      buildConfigurationList = 1234567890ABCD0012345654 /* Build configuration list */;
+      buildPhases = (
+        1234567890ABCD0012345656 /* Sources */,
+      );
+    };
+    /* End PBXNativeTarget section */
+
+    /* Begin PBXSourcesBuildPhase section */
+    1234567890ABCD0012345656 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      files = (
+        1234567890ABCD0012345678 /* AppDelegate.swift in Sources */,
+        1234567890ABCD0012345680 /* ViewController.swift in Sources */,
+      );
+    };
+    /* End PBXSourcesBuildPhase section */
+
+    /* Begin XCBuildConfiguration section */
+    1234567890ABCD0012345658 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+      };
+    };
+    1234567890ABCD0012345659 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        PRODUCT_NAME = "$(TARGET_NAME)";
+        SWIFT_VERSION = 5.0;
+      };
+    };
+    /* End XCBuildConfiguration section */
+
+    /* Begin XCConfigurationList section */
+    1234567890ABCD0012345654 /* Build configuration list */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1234567890ABCD0012345658 /* Debug */,
+        1234567890ABCD0012345659 /* Release */,
+      );
+      defaultConfigurationName = Release;
+    };
+    /* End XCConfigurationList section */
+
+    1234567890ABCD0012345669 /* Project object */ = {
+      isa = PBXProject;
+      buildConfigurationList = 1234567890ABCD0012345654 /* Build configuration list */;
+      compatibilityVersion = "Xcode 13.0";
+      mainGroup = 1234567890ABCD0012345670;
+      targets = (
+        1234567890ABCD0012345655 /* MyApp */,
+      );
+    };
+  };
+
+  rootObject = 1234567890ABCD0012345669 /* Project object */;
+}
